@@ -1,0 +1,9 @@
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  source:
+    repoURL: https://github.com/gomgomshrimp/helm-charts
+  syncPolicy:
+    automated:
+      prune: true
